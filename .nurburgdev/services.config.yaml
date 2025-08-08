@@ -1,0 +1,10 @@
+name: inventoryservice
+port: 3000
+runtime: nodejs
+instances: 2
+env:
+  DB_HOST: devpostgresql
+  DB_NAME: devdb
+  DB_USER: devuser
+  DB_PASSWORD: password
+  PORT: 3000
