@@ -1,4 +1,13 @@
-# Inventory Management System
+---
+title: Inventory Management System
+video: https://www.youtube.com/watch?v=7ySVWcFHz98
+tags:
+  - postgresql
+  - nodejs
+  - typescript
+  - rest-api
+summary: Build an inventory management API for e-commerce platforms with support for category-based queries, temporary inventory blocking, and automated cleanup.
+---
 
 Build an inventory management API for e-commerce platforms with support for category-based queries, temporary inventory blocking, and automated cleanup.
 
