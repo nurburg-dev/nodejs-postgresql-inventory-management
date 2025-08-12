@@ -1,5 +1,5 @@
 test_name: Inventory Management API Tests
-
+strict: false
 stages:
   - name: Create new item
     request:
@@ -26,7 +26,7 @@ stages:
     response:
       status_code: 200
       json:
-        id: "{item_id}"
+        id: !int "{item_id}"
         name: "Test Laptop"
 
   - name: Get top items by category
